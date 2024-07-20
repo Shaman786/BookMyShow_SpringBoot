@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public interface ShowSeatRepository extends JpaRepository<ShowSeat, Long> {
     @Override
-    List<ShowSeat> findAllById(Iterable<Long> showSeatsIds);
+    List<ShowSeat> findAllById(Iterable<Long> showSeatIds);
 
     @Override
     ShowSeat save(ShowSeat showSeat);
